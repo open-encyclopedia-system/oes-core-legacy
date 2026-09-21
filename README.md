@@ -1,24 +1,29 @@
-# OES Legacy Module
-Welcome to the Open Encyclopedia System (OES) Legacy repository on GitHub.  
-OES is a modular and configurable software platform for creating, publishing, and maintaining online encyclopedias in the humanities and social sciences. It is designed to be accessible worldwide through Open Access.
+# Open Encyclopedia System — Legacy Plugin
 
-For more information, please visit the [main repository](https://github.com/open-encyclopedia-system) or our [website](https://open-encyclopedia-system.org).
+This repository contains the **OES Legacy** plugin.
+It provides deprecated features and backwards compatibility for applications relying on earlier functionalities of the
+[Open Encyclopedia System (OES)](https://github.com/open-encyclopedia-system/oes-core) framework.
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/open-encyclopedia-system/oes-core-legacy/graphs/commit-activity)
+
+For general information about OES — what it is, its features, citation, contributing, credits, and licensing —
+see the [OES Core README](https://github.com/open-encyclopedia-system/oes-core#readme).
 
 A typical OES application consists of:
-- the **OES Core plugin**
-- an **application-specific OES plugin** that implements application-specific features
-- optional **OES modules**, such as this module
-
-The **OES Legacy** plugin provides deprecated features and backwards compatibility for projects relying on earlier OES functionalities.
+- the **OES Core** plugin
+- an application-specific OES plugin, such as the **OES Demo** plugin
+- an optional OES Theme, such as the **OES Block Theme**
+- optional OES Modules, such as the **OES Legacy Plugin**
 
 ## Dependencies
-This module depends on:
 
-- **OES Core**, version `2.3.3`  
-  Repository: [https://github.com/open-encyclopedia-system/oes-core](https://github.com/open-encyclopedia-system/oes-core)
+The OES Legacy depends on:
 
-- **Advanced Custom Fields (ACF)**, version `6.3.4`  
-  Website: [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com)
+| Component                    | Version   | Source                                                           |
+|------------------------------|-----------|------------------------------------------------------------------|
+| OES Core                     | `≥ 2.3.3` | [oes-core](https://github.com/open-encyclopedia-system/oes-core) |
+| Advanced Custom Fields (ACF) | `≥ 6.3.4` | [advancedcustomfields.com](https://www.advancedcustomfields.com) |
 
 ## Documentation
 
@@ -31,29 +36,13 @@ Additional documentation for this plugin, in this repository:
 
 ## Support
 
-This repository does not provide GitHub-based support (e.g. no issue tracker or discussions for user support).
-
-For help with plugin usage and configuration, customization options, or application-based implementation, please
-contact: **info@open-encyclopedia-system.org**
-
-## Contributing
-
-We welcome contributions from the academic and technical community. Contributions are currently coordinated
-directly rather than through GitHub pull requests — please reach out first so we can discuss scope and approach:
-
+This repository does not offer public support or issue tracking. For help using the OES plugins, contact:
 **info@open-encyclopedia-system.org**
 
-## Credits
+For general OES information — contributing and credits — see the
+[OES Core README](https://github.com/open-encyclopedia-system/oes-core#readme).
 
-Developed by:
-**Digitale Forschungsinfrastrukturen**, Freie Universität Berlin (FUB-IT)
-Funded by: **German Research Foundation (DFG)**
+## Licensing
 
-## License
-
-This software is licensed under the **GNU General Public License (GPL v2 or later)**.
-
-© 2026 Freie Universität Berlin, FUB-IT, Digitale Forschungsinfrastrukturen.
-
-For full license terms see [LICENSE.txt](./LICENSE.txt) or
-[GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+This software is licensed under the **GNU General Public License (GPL v2 or later)**. See [LICENSE.txt](./LICENSE.txt)
+for the full license terms, or [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html).
