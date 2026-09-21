@@ -6,8 +6,8 @@
  * Plugin URI:         https://www.open-encyclopedia-system.org/
  * Description:        Enable OES legacy features and functions.
  * Version:            1.1.0
- * Author:             Maren Welterlich-Strobl, Freie Universität Berlin, FUB-IT
- * Author URI:         https://www.it.fu-berlin.de/die-fub-it/mitarbeitende/mstrobl.html
+ * Author:             Maren Welterlich-Strobl, Freie Universität Berlin, FUB-IT, Digitale Forschungsinfrastrukturen
+ * Author URI:         https://www.fu-berlin.de/
  * Requires at least:  6.5
  * Tested up to:       7.0.0
  * Requires PHP:       8.1
