@@ -6,7 +6,7 @@ For more information, please visit the [main repository](https://github.com/open
 
 A typical OES application consists of:
 - the **OES Core plugin**
-- a **project-specific OES plugin** that implements application-specific features
+- an **application-specific OES plugin** that implements application-specific features
 - optional **OES modules**, such as this module
 
 The **OES Legacy** plugin provides deprecated features and backwards compatibility for projects relying on earlier OES functionalities.
@@ -20,36 +20,40 @@ This module depends on:
 - **Advanced Custom Fields (ACF)**, version `6.3.4`  
   Website: [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com)
 
-## Support
-This repository does **not** offer public support or issue tracking.  
-If you need help using the OES plugins, please contact our help desk:  
-**info@open-encyclopedia-system.org**
-
-For information about available modules, customization options, or help launching your own encyclopedia, visit:  
-[https://open-encyclopedia-system.org](https://open-encyclopedia-system.org)
-
 ## Documentation
-The full user and technical manual is available at:  
-[https://manual.open-encyclopedia-system.org/](https://manual.open-encyclopedia-system.org/)
+
+The full user and technical manual is available at:
+[OES Manual](https://manual.open-encyclopedia-system.org/) *(German)*
+
+Additional documentation for this plugin, in this repository:
+
+- [CHANGELOG.md](./CHANGELOG.md) — release history for the OES Legacy plugin
+
+## Support
+
+This repository does not provide GitHub-based support (e.g. no issue tracker or discussions for user support).
+
+For help with plugin usage and configuration, customization options, or application-based implementation, please
+contact: **info@open-encyclopedia-system.org**
 
 ## Contributing
-If you are interested in contributing to OES development, please get in touch:  
+
+We welcome contributions from the academic and technical community. Contributions are currently coordinated
+directly rather than through GitHub pull requests — please reach out first so we can discuss scope and approach:
+
 **info@open-encyclopedia-system.org**
 
 ## Credits
-Developed by **Digitale Infrastrukturen**, Freie Universität Berlin (FUB IT),  
-with support from the **German Research Foundation (DFG)**.
 
-## Licencing
-Copyright (C) 2025
-Freie Universität Berlin, FUB IT, Digitale Infrastrukturen
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public
-License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later
-version.
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
-warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+Developed by:
+**Digitale Forschungsinfrastrukturen**, Freie Universität Berlin (FUB-IT)
+Funded by: **German Research Foundation (DFG)**
 
-# Changelog
+## License
 
-## 1.0.0
-- initial version
+This software is licensed under the **GNU General Public License (GPL v2 or later)**.
+
+© 2026 Freie Universität Berlin, FUB-IT, Digitale Forschungsinfrastrukturen.
+
+For full license terms see [LICENSE.txt](./LICENSE.txt) or
+[GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
